@@ -2,6 +2,8 @@
 
 > Vue.js and webpack trial
 
+https://github.com/vuejs-templates/webpack
+
 ## Build Setup
 
 ``` bash
