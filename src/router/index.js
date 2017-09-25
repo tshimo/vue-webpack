@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import Hello from '@/components/Hello'
-import HelloRouter from '@/components/HelloRouter'
+import Hello from '@/components/index/Hello'
+import HelloRouter from '@/components/hello-router/HelloRouter'
 
 Vue.use(Router)
 
