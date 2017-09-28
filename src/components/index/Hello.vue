@@ -4,6 +4,7 @@
     <h2>My Links</h2>
       <ul>
         <li><router-link to="/hello-router">Hello Router</router-link></li>
+        <li><router-link to="/beatles">The Beatles</router-link></li>
       </ul>
     <h2>Essential Links</h2>
     <ul>
