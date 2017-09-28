@@ -1,16 +1,17 @@
 <template>
-  <div class="beatles">
+  <div class="person">
     <h1>THe Beatles</h1>
-    <ul>
-      <li v-for="person in beatles"><router-link :to="{ name: 'beatles-member', params: { id: person.id } }">{{ person.name }}</router-link></li>
-    </ul>
+    <p>Hello, I'm {{ person.name }}</p>
+    <p>I play the {{ person.part }}</p>
     <router-link to="/">TOP</router-link>
   </div>
 </template>
 
 <script>
+import _ from 'lodash'
+
 export default {
-  name: 'beatles',
+  name: 'person',
   data () {
     return {
       beatles: [
@@ -37,7 +38,10 @@ export default {
       ]
     }
   },
-  created () {
+  computed: {
+    person () {
+      return _.find(this.beatles, (o) => { return o.id === this.$route.params.id })
+    }
   }
 }
 </script>
