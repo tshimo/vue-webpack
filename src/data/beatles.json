@@ -1,0 +1,24 @@
+{
+  "beatles": [
+    {
+      "id": "001",
+      "name": "John Lennon",
+      "part": "Guitar"
+    },
+    {
+      "id": "002",
+      "name": "Paul MacCartney",
+      "part": "Bass Guitart"
+    },
+    {
+      "id": "003",
+      "name": "George Harrison",
+      "part": "Guitar"
+    },
+    {
+      "id": "004",
+      "name": "Ringo Starr",
+      "part": "Drums"
+    }
+  ]
+}
